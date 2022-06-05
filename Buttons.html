@@ -1,0 +1,41 @@
+<!DOCTYPE Some Buttons>
+<html lang="en">
+
+<head>
+
+</head>
+<!-- Makes thing nicer -->
+
+<body style="background-color: antiquewhite; background-clip: border-box;">
+
+
+</body>
+<h1>Be Careful of Flashing Colors
+</h1>
+<center>
+    <!--A button attached to the StartButton script-->
+    <button id="startButton" onclick="Start(); countdownInterval = setInterval(Start, 100);">
+        Start
+    </button>
+    <!--A button attached to the StopButton script-->
+    <button id="stopButton" onclick="Stop()" disabled>Stop</button>
+</center>
+<!--Changable varible displays-->
+
+<h2>
+
+    <!--How I'm referencing my external javascript-->
+    <script src="StartButton.js" language="javascript" type="text/javascript">
+
+        Start()
+
+
+    </script>
+    <script src="StopButton.js" language="javascript" type="text/javascript">
+        Stop();
+
+    </script>
+</h2>
+</body>
+
+</html>
